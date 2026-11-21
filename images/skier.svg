@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" fill="none">
+  <defs>
+    <linearGradient id="skg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fd3ff"/>
+      <stop offset="1" stop-color="#ff7a45"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#skg)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <!-- torso -->
+    <path d="M152 62 C140 96 122 126 96 152"/>
+    <!-- back leg -->
+    <path d="M96 152 L72 198"/>
+    <!-- front leg -->
+    <path d="M96 152 L114 208"/>
+    <!-- arms -->
+    <path d="M144 82 L102 64"/>
+    <path d="M142 90 L98 104"/>
+    <!-- poles -->
+    <path d="M102 64 L88 132" stroke-width="5"/>
+    <path d="M98 104 L82 162" stroke-width="5"/>
+  </g>
+  <!-- head -->
+  <circle cx="163" cy="40" r="19" fill="url(#skg)"/>
+  <!-- ski -->
+  <path d="M28 218 L158 210" stroke="url(#skg)" stroke-width="7" stroke-linecap="round"/>
+  <!-- speed lines -->
+  <g stroke="#6fd3ff" stroke-width="4" stroke-linecap="round" opacity=".5">
+    <path d="M10 90 L60 90"/>
+    <path d="M0 120 L48 120"/>
+    <path d="M20 150 L58 150"/>
+  </g>
+</svg>

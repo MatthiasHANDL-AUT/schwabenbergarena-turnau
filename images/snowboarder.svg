@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" fill="none">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7a45"/>
+      <stop offset="1" stop-color="#6fd3ff"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#sbg)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <!-- torso -->
+    <path d="M148 60 C136 94 118 124 106 150"/>
+    <!-- legs -->
+    <path d="M106 150 L98 202"/>
+    <path d="M106 150 L126 198"/>
+    <!-- arms -->
+    <path d="M140 80 L104 70"/>
+    <path d="M138 88 L102 106"/>
+  </g>
+  <!-- head -->
+  <circle cx="157" cy="38" r="19" fill="url(#sbg)"/>
+  <!-- snowboard -->
+  <path d="M52 216 C110 224 160 218 196 208" stroke="url(#sbg)" stroke-width="9" stroke-linecap="round"/>
+  <!-- bindings hint -->
+  <path d="M110 212 L116 204" stroke="url(#sbg)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M140 210 L146 202" stroke="url(#sbg)" stroke-width="6" stroke-linecap="round"/>
+  <!-- speed lines -->
+  <g stroke="#ff7a45" stroke-width="4" stroke-linecap="round" opacity=".5">
+    <path d="M8 80 L56 80"/>
+    <path d="M0 112 L46 112"/>
+    <path d="M18 142 L56 142"/>
+  </g>
+</svg>
